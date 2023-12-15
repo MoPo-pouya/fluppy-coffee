@@ -599,8 +599,8 @@ var swordOpen = `
 `;
 
 var swordMid = `
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400" width="100"
-      viewBox="0 0 100 400" style="enable-background:new 0 0 100 400;" xml:space="preserve">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400"
+      viewBox="0 0 100 400" width="100" style="enable-background:new 0 0 100 400;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#EAA35B;}
 	.st1{fill:#B9CF3D;}
