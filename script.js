@@ -705,7 +705,7 @@ var swordClose = "</svg>";
 var botSwordSVG = swordOpen + swordMid + swordClose;
 var topSwordSVG =
 swordOpen +
-'<g transform="rotate(180) translate(-80, -380)">' +
+'<g transform="rotate(180) translate(-100, -400)">' +
 swordMid +
 "</g>" +
 swordClose;
