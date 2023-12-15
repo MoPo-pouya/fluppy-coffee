@@ -594,12 +594,13 @@ var fgSVG = `
 
 var swordOpen = `
   <svg id="sword" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg"
-      height="400" viewBox="0 0 80 380" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#"
+      height="400" viewBox="0 0 100 400" width="100" version="1.1" xmlns:cc="http://creativecommons.org/ns#"
       xmlns:dc="http://purl.org/dc/elements/1.1/">
 `;
+
 var swordMid = `
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400" width="100"
-	 viewBox="0 0 641.4 2481.7" style="enable-background:new 0 0 641.4 2481.7;" xml:space="preserve">
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400" width="100"
+      viewBox="0 0 100 400" style="enable-background:new 0 0 100 400;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#EAA35B;}
 	.st1{fill:#B9CF3D;}
