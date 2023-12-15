@@ -1,0 +1,95 @@
+@import url('https://v1.fontapi.ir/css/Vazir');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Vazir, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  canvas {
+    position: absolute;
+  }
+  
+  .ctn {
+    position: relative;
+    width: 360px;
+    height: 640px;
+  }
+  
+  #scoreboard {
+    position: absolute;
+    top: 540px;
+    width: 360px;
+    text-align: center;
+    font-size: 50px;
+    color: #333333;
+  }
+  
+  #start-screen {
+    position: absolute;
+    top: 20px;
+  }
+  
+  #gameover-screen {
+    visibility: hidden;
+    position: absolute;
+    width: 360px;
+    height: 640px;
+    opacity: 0;
+    transition: opacity 1s;
+    text-align: center;
+  }
+  
+#gameover {
+  width: 230px;
+  background-color: #AFAB99;
+  color: #F0E65B;
+  padding: 10px 20px;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 15px; /* اضافه شده */
+  display: inline-block; /* اضافه شده */
+}
+
+  
+#replay {
+  width: 55px;
+  background-color: #AFAB99;
+  color: #F0E65B;
+  padding: 10px 20px;
+  font-size: 15px;
+  transition: background-color 1s;
+  margin: 80px auto;
+  border-radius: 15px; /* اضافه شده */
+  display: inline-block; /* اضافه شده */
+}
+
+  
+  #replay:hover {
+    background-color: #ffffff;
+    color: #333333;
+    cursor: pointer;
+  }
+  
+  #ctrl-ctn {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    opacity: 1;
+    transition: opacity 1s;
+  }
+  
+  .ctrl-btn {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin: 10px;
+  }
